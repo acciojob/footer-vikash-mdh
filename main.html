@@ -1,60 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Company Footer</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <footer class="footer">
-        <div class="footer-section">
-            <h3>Home</h3>
-            <ul>
-                <li><a href="/">Homepage</a></li>
-                <li><a href="/about">About Us</a></li>
-                <li><a href="/services">Services</a></li>
-                <li><a href="/contact">Contact</a></li>
-            </ul>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+	  <style>
+		  footer{
+    background-color: #333;
+    color: white;
+    font-family: cursive;
+    padding: 30px;
+}
 
-        <div class="footer-section">
-            <h3>About</h3>
-            <p>Learn more about our company and what we do.</p>
-        </div>
+.content{
+    width: 100%;
+    margin:0 auto;
+}
 
-        <div class="footer-section">
-            <h3>Links</h3>
-            <ul>
-                <li><a href="/">Homepage</a></li>
-                <li><a href="/about">About Us</a></li>
-                <li><a href="/services">Services</a></li>
-                <li><a href="/blog">Blog</a></li>
-                <li><a href="/faq">FAQ</a></li>
-            </ul>
-        </div>
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
 
-        <div class="footer-section">
-            <h3>Services</h3>
-            <ul>
-                <li><a href="/service1">Service 1</a></li>
-                <li><a href="/service2">Service 2</a></li>
-                <li><a href="/service3">Service 3</a></li>
-            </ul>
-        </div>
+.link-boxes{
+    display: flex;
+}
+.media-icons{
+	display:flex;
+	justify-content: space-between;
+	gap:10px;
+}
+	  </style>
+  </head>
 
-        <div class="footer-section">
-            <h3>Contact</h3>
-            <p>Contact Number: 8879887262</p>
-            <p>Follow us on social media:</p>
-            <div class="social-media">
-                <a href="#" class="media-icons">FB</a>
-                <a href="#" class="media-icons">TW</a>
-                <a href="#" class="media-icons">IG</a>
-                <a href="#" class="media-icons">LN</a>
-                <a href="#" class="media-icons">YT</a>
+  <body>
+    <footer>
+      <div class="content">
+        <div class="top">
+          <div class="logo-details">
+            <span class="logo_name">company</span>
+          </div>
+          <div class="media-icons">
+			  
+            <a href="https://facebook.com">
+               <i class="fa fa-facebook"></i>
+            </a>
+			  <a href="https://twitter.com">
+               <i class="fa fa-twitter"></i>
+            </a>
+            <a href="https://instagram.com">
+               <i class="fa fa-instagram"></i>
+            </a>
+            <a href="https://linkedin.com">
+               <i class="fa fa-linkedin"></i>
+            </a>
+            <a href="https://youtube.com">
+               <i class="fa fa-youtube"></i>
+            </a>
+            <!-- your code here -->
+          </div>
+        </div>
+        <div class="link-boxes">
+			
+            <div class="box">
+               <h3>Home</h3>
+               <ul>
+                  <li><a href="/Footwear">Footwear</a></li>
+                  <li><a href="/Shirts">Shirts</a></li>
+                  <li><a href="/Sweatshirts">Sweatshirts</a></li>
+                  <li><a href="/Jeans">Jeans</a></li>
+               </ul>
+            </div>
+
+            <div class="box">
+               <h3>About</h3>
+               <ul>
+                  <li><a href="/Footwear">Footwear</a></li>
+                  <li><a href="/Shirts">Shirts</a></li>
+                  <li><a href="/Sweatshirts">Sweatshirts</a></li>
+                  <li><a href="/Jeans">Jeans</a></li>
+               </ul>
+            </div>
+
+            <div class="box">
+               <h3>Links</h3>
+               <ul>
+                  <li><a href="/">Homepage</a></li>
+                  <li><a href="/about">About</a></li>
+                  <li><a href="/services">Services</a></li>
+                  <li><a href="/contact">Contact</a></li>
+               </ul>
+            </div>
+
+            <div class="box">
+               <h3>Services</h3>
+               <ul>
+                  <li><a href="/service">Service 1</a></li>
+                  <li><a href="/service1">Service 2</a></li>
+                  <li><a href="/service2">Service 3</a></li>
+                  <li><a href="/service3">Service 4</a></li>
+               </ul>
+            </div>
+
+            <div class="box">
+               <h3>Contact</h3>
+               <ul>
+                  <li>8879887262</li>
+                  <li>Shirts</li>
+                  <li>Sweatshirts</li>
+                  <li>Jeans</li>
+               </ul>
             </div>
         </div>
+      </div>
+          <!-- your code here -->
+        </div>
+      </div>
+      <div class="bottom-details">
+		  <p>2024 company. All Rights Reserved.</p>
+        <!-- your code here -->
+      </div>
     </footer>
-</body>
+  </body>
 </html>
